@@ -1,0 +1,17 @@
+# third-party firmware: cloned by scripts/fetch_vendor.ps1, pinned commit
+vendor/ALIFE-MM32/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# platformio / build
+.pio/
+build/
+*.elf
+*.map
+*.hex
+
+# local
+*.local.json
